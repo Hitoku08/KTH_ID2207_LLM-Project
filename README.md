@@ -17,7 +17,7 @@ A simple software application for KTH University students, built to record and r
 
 ### Results
 
-##### Record
+#### Record
 
 Use a browser to access [Add Study Record](http://localhost:8080/addRecord)
 
