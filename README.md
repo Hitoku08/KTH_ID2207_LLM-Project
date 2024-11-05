@@ -22,15 +22,9 @@ A simple software application for KTH University students, built to record and r
 Use a browser to access [Add Study Record](http://localhost:8080/addRecord)
 
 Add record for Jack: 10 Hours on Physics, 20 Hours on Math and 10 Hours on Chemistry
+![image](https://github.com/user-attachments/assets/7cad01b8-5c31-4f6f-9373-8a2b93f77b0e)
+
+#### Report
+
 ![image](https://github.com/user-attachments/assets/9b9e178c-dd7b-47bc-8323-508e1fb0485a)
 
-
-![image-20241030160612140](README.assets/image-20241030160612140.png)
-
-![image-20241030160806979](README.assets/image-20241030160806979.png)
-
-![image-20241030160916975](README.assets/image-20241030160916975.png)
-
-##### Report
-
-![image-20241105184315843](README.assets/image-20241105184315843.png)
