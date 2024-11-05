@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Study Hours Report</title>
+</head>
+<body>
+<h1>Study Hours Report for "<span th:text="${studentName}"></span>" for the month of "<span th:text="${yearMonth}"></span>":</h1>
+<ul>
+    <li th:each="entry : ${report}">
+        <span th:text="${entry.key}"></span>: <span th:text="${entry.value}"></span> hours.
+    </li>
+</ul>
+<p>Total Study Hours: <span th:text="${totalHours}"></span> hours.</p>
+<a href="/addRecord">Add Study Record</a>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Add Study Record</title>
+</head>
+<body>
+<h1>Add Study Record</h1>
+<form action="#" th:action="@{/addRecord}" th:object="${studyRecord}" method="post">
+  <label for="studentName">Student Name:</label>
+  <input type="text" id="studentName" th:field="*{studentName}" required />
+  <br/>
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" th:field="*{subject}" required />
+  <br/>
+  <label for="hours">Hours:</label>
+  <input type="number" id="hours" th:field="*{hours}" required />
+  <br/>
+  <label for="date">Date:</label>
+  <input type="date" id="date" th:field="*{date}" required />
+  <br/>
+  <button type="submit">Add Record</button>
+</form>
+</body>
+</html>
