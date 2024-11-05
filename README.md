@@ -14,29 +14,16 @@ A simple software application for KTH University students, built to record and r
 - **Development Process:** Utilized LLMs to aid in designing system architecture, generating code, and creating test cases. Modifications to LLM-generated artifacts were documented and tested for accuracy.
 - **Documentation:** The project includes detailed documentation on prompts, prompt refinement strategies, testing results, and user experience with LLMs.
 
-### Installation & Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone [repository-url]
-   ```
-
-2. Run the application:
-
-   ```bash
-   [commands to run]
-   ```
-
-3. Follow prompts to record study hours and view monthly reports.
 
 ### Results
 
-###### Record
+##### Record
 
 Use a browser to access [Add Study Record](http://localhost:8080/addRecord)
 
 Add record for Jack: 10 Hours on Physics, 20 Hours on Math and 10 Hours on Chemistry
+![image](https://github.com/user-attachments/assets/9b9e178c-dd7b-47bc-8323-508e1fb0485a)
+
 
 ![image-20241030160612140](README.assets/image-20241030160612140.png)
 
@@ -44,6 +31,6 @@ Add record for Jack: 10 Hours on Physics, 20 Hours on Math and 10 Hours on Chemi
 
 ![image-20241030160916975](README.assets/image-20241030160916975.png)
 
-###### Report
+##### Report
 
 ![image-20241105184315843](README.assets/image-20241105184315843.png)
